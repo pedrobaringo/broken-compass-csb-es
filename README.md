@@ -1,4 +1,4 @@
-![Fondo Tutorial_Estirpe](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/22964624-e3ce-48a3-98f6-33da179b74d4)
+![Fondo Tutorial Broken Compass](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/c6047bed-8f14-4745-9493-ef7858cb1c23)
 
 # Fichas para Broken Compass en Custom System Builder
 
@@ -20,7 +20,6 @@ Modulo de Foundry VTT con las templates de las fichas para el juego Broken Compa
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente video: 
 
-[![Video del tutorial](http://img.youtube.com/vi/xB_77tavA2w/0.jpg)](http://www.youtube.com/watch?v=xB_77tavA2w "Tutorial Foundry-Estirpe de Dunwich")
 
 
 ## Instalación
