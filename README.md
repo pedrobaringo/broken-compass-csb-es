@@ -1,13 +1,12 @@
 ![Fondo Tutorial_Estirpe](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/22964624-e3ce-48a3-98f6-33da179b74d4)
 
-# Fichas para Estirpe de Dunwich en Custom System Builder
+# Fichas para Broken Compass en Custom System Builder
 
 ## Tabla de Contenido
 - [Introducción](#introducción)
 - [Instalación](#instalación)
-- [Configurar fórmula de Iniciativa](#configurar-fórmula-de-iniciativa)
 - [Crear un PJ](#crear-un-pj)
-  - [Pestaña de Habilidades](#pestaña-de-habilidades)
+  - [Pestaña de Características](#pestaña-de-características)
   - [Pestaña de Manifestación](#pestaña-de-manifestación)
   - [Pestaña de Trasfondo y Notas](#pestaña-de-trasfondo-y-notas)
 - [Crear un PNJ](#crear-un-pnj)
@@ -16,7 +15,7 @@
 - [Iniciativa y Combate](#iniciativa-y-combate)
 
 ## Introducción
-Modulo de Foundry VTT con las templates de las fichas para el juego Estirpe de Dunwich para el sistema Custom System Builder ( https://foundryvtt.com/packages/custom-system-builder ).
+Modulo de Foundry VTT con las templates de las fichas para el juego Broken Compass para el sistema Custom System Builder ( https://foundryvtt.com/packages/custom-system-builder ).
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente video: 
 
@@ -24,46 +23,37 @@ Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente vi
 
 
 ## Instalación
-Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/releases/latest/download/module.json
+Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: https://github.com/pedrobaringo/broken-compass-csb-es/releases/latest/download/module.json
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/b2025a6c-8129-479f-9e15-796e429dd632)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/c5f37ecc-7549-478f-853e-05bab04df9e9)
 
-Cuando hayas creado un mundo con el sistema Custom System Builder debes activar este módulo. En la pestaña de compendios tendrás dos: "Templates_Actores" y "Templates_Objetos".
-Es importante que importes primero los Objetos y después los Actores, pero sobretodo que se mantenga el ID del documento como se ve en la imagen:
+Cuando hayas creado un mundo con el sistema Custom System Builder debes activar este módulo. En la pestaña de compendios tendrás tres: "Actor_templates", Macros_BC y "Object Templates".
+Es importante que importes primero los Macros, después Objetos y después los Actores, pero sobretodo que se mantenga el ID del documento como se ve en la imagen:
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/6fa9c0c2-1936-4db6-99b2-7e80f54e7172)
-
-## Configurar fórmula de Iniciativa
-Para configurar la fórmula de Iniciativa debemos ir a Configurar Ajustes --> Custom System Builder y allí cambiar la Initiative formula a **"iniciativa"** (sin las comillas y en minuscula) y en Roll Icons ponemos **"dice"** (tambien sin comillas).
-
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/ee648fbb-139a-4de2-b68c-5d82108691e8)
-
-Para que tenga efecto debemos refrescar la página.
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/b9bc6c3d-e6b5-4c5f-84cc-f90ea5ac93f0)
 
 ## Crear un PJ
 Una vez estan importadas las templates ya podemos crear los Actores.
 Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/1286067f-37f3-48fb-8e5b-d860ce6dea84)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/717e5da1-e715-4976-9f69-cdb3f08313dc)
 
 Aqui tenemos que seleccionar en Template la que se llama **"PJ_Template"**.
 
-~~Aqui tenemos que seleccionar en Template una de las dos templates llamadas PJ_Template segun el siguiente criterio:~~
-* ~~Si vamos a **usar el módulo Dice so Nice** (https://foundryvtt.com/packages/dice-so-nice) para ver las tiradas con dados 3D, debemos seleccionar la template **"PJ_Template_DSN"**. Sin el módulo no funcionarán las tiradas con esta template.~~
-* ~~Si **no vamos a usar ese módulo**, debemos seleccionar la template **"PJ_Template"**.~~
-
 Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/f8546427-eee0-4c13-bfea-bff13fbea094)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/64d3b636-d162-4c4e-b4b6-c9d38db6cfaf)
 
-En la parte de arriba se pueden poner la descripción y los puntos de experiencia y los costes de avances.
 
-### Pestaña de Habilidades
-En la pestaña de habilidades se pueden modificar los valores de las habilidades, escribir las especialidades, añadir las armas cuerpo a cuerpo y a distancia arrastrandolas desde objetos (se pueden modificar haciendo click en el nombre) y marcar las casillas de vitalidad e incapacitación.
+En la parte de arriba se pueden poner las Etiquetas de nuestro héroe, los lugares a los que llama hogar y las palabras por las que vivir.
 
-Tambien está el apartado de iniciativa que comentaremos más adelante.
+### Pestaña de Características
+Esta pestaña tiene diversas partes:
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/287bab24-9daa-4f5f-80e5-9937a717f62d)
+#### Campos y Habilidades
+A la izquierda tenemos todos los campos y habilidades, clickando en los checkbox marcamos los puntos que tenemos y podremos hacer tiradas haciendo click en las habilidades (como describiremos mas abajo).
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/1b23f59f-ce5f-4c6a-91ae-b2ed05f92c0b) ![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/39a8518c-af73-4f30-a909-03323af93c67)
 
 ### Pestaña de Manifestación
 En esta pestaña podemos describir la Manifestación de Yog-Sothoth de nuestro personaje, modificar los factores humano y primigenio y marcar los pasos hacia el umbral con sus hitos y deformidades pertinentes. Tambien tenemos la tabla de "Magnitudes de las Manifestaciones".
