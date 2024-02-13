@@ -20,7 +20,7 @@ Modulo de Foundry VTT con las templates de las fichas para el juego Broken Compa
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente video: 
 
-
+[![Video del tutorial](http://img.youtube.com/vi/1qsHeS_QrBw/0.jpg)](http://www.youtube.com/watch?v=1qsHeS_QrBw "Tutorial Foundry-Broken Compass")
 
 ## Instalación
 Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en el menú de módulos como se muestra en la imagen: https://github.com/pedrobaringo/broken-compass-csb-es/releases/latest/download/module.json
