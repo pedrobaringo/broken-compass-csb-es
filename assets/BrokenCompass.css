@@ -1,0 +1,906 @@
+@font-face {
+  font-family: 'Adventure';
+  src: url('../assets/Adventure.otf');
+}
+@font-face {
+  font-family: 'AmericanTypewriter';
+  src: url('../assets/American Typewriter Regular.ttf');
+}
+
+.window-app .window-content {
+	background: url('../assets/BackgroundBC2.jpg')center rgb(201 186 160);
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+ 	background-size: cover;
+}
+
+.labelcat1 {
+	font-family:'Adventure';
+	font-size:1.1em;
+}
+.labelcat12 {
+	font-family:'Adventure';
+	font-size:1.1em;
+	width:5px;
+}
+.labelcat2 {
+	font-family:'Adventure';
+	color:#494747;
+}
+.labelcat3 {
+	font-family:'Adventure';
+	font-size:1.5em;
+	padding-top:7px;
+}
+.labelcat4 {
+	font-family:'Adventure';
+	font-size:1.3em;
+	padding-top:7px;
+}
+.labelcat5 {
+	font-family:'Adventure';
+	font-size:1.4em;
+}
+.labelcat6 {
+	font-family:'Adventure';
+	font-size:1.5em;
+	padding-top:0px;
+}
+.labsiento1 {
+	font-family:'AmericanTypewriter';
+	color:#494747;
+	font-weight:bold;
+	font-size:0.8em;
+	margin:0px;
+}
+.labobjdesc{
+	font-family:'AmericanTypewriter';
+	font-size:1em;
+}
+.labelcatsient1 {
+	font-family:'Adventure';
+	font-size:1em;
+}
+.textinputcat1criatext input{
+	font-family:'AmericanTypewriter';
+	text-align: left;
+	background-color: transparent;
+	border-width:0px 0px 1px 0px;
+	border-radius:0px;
+}
+.textinputcat1 input{
+	font-family:'AmericanTypewriter';
+	font-weight: bold;
+	text-align: left;
+	background-color: transparent;
+	border-width:0px 0px 1px 0px;
+	border-radius:0px;
+}
+.textinputcat1 select{
+	font-family:'AmericanTypewriter';
+	font-weight: bold;
+	text-align: center;
+	background-color: transparent;
+	border-width:0px 0px 1px 0px;
+}
+.textinputcat2 input{
+	font-family:'AmericanTypewriter';
+	font-weight: bold;
+	text-align: left;
+	background-color: transparent;
+	border-width:0px 0px 1px 0px;
+	border-radius:0px;
+}
+.textinputcat3 input{
+	font-family:'AmericanTypewriter';
+	font-weight: bold;
+	text-align: center;
+	background-color: transparent;
+	border-width:0px 0px 1px 0px;
+	border-radius:0px;
+}
+.textinputcatsent input{
+	font-family:'AmericanTypewriter';
+	font-weight: bold;
+	text-align: left;
+	background-color: transparent;
+	border-width:0px 0px 0px 0px;
+	border-radius:0px;
+}
+.textinputcat2 input{
+	font-family:'AmericanTypewriter';
+	font-weight: bold;
+	background-color: transparent;
+	border-width:0px 0px 1px 0px;
+	border-radius:0px;
+}
+.panelenem {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	gap:10px;
+	margin:0px;
+}
+.panelpnj {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	gap:0px;
+	margin:0px;
+}
+.panfuerzaenem {
+	display: grid;
+	grid-template-columns: 20% 30% 50%;
+	gap:0px;
+	margin:0px;
+}
+.paneldescriptionmodeloveh {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	gap:0px;
+	margin:0px;
+}
+.paneldescription {
+	display: grid;
+	grid-template-columns: 35% 65%;
+	gap:0px;
+	margin:0px;
+}
+.paneldescription2 {
+	display: grid;
+	grid-template-columns: 25% 75%;
+	gap:0px;
+	margin:0px;
+}
+.paneldescription3 {
+	display: grid;
+	grid-template-columns: 28% 72%;
+	gap:10px;
+	margin:0px;
+}
+.paneltempo {
+	display: grid;
+	grid-template-columns: 25% 75%;
+	gap:0px;
+	margin:0px;
+	margin-right:10px;
+}
+.panelepoca {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	gap:0px;
+	margin:0px;
+}
+.lugarespanel {
+	display: grid;
+	gap:0px;
+}
+.tabbedcontent nav{
+	font-family:'Adventure';
+	font-size: 20px;
+	color: #494747;
+}
+.tabbedcontent .item.active{
+	font-family:'Adventure';
+	font-size: 20px;
+	text-decoration:underline;
+	color: black;
+}
+.custom-system-actor nav.sheet-tabs {
+	border-top:0px;
+}
+.panelgrande2col {
+	display: grid;
+	grid-template-columns: 32% 68%;
+}
+.panelgenhab {
+	margin-bottom:10px;
+}
+.checkboxpanelcriatext {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	gap:7px;
+	margin-left:10px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.checkboxpanel {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap:7px;
+	margin-left:10px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.checkbox1 input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url('../assets/CheckboxEmptyBC.webp');
+	background-size:20px;
+	background-repeat: no-repeat;
+	flex: 0 0 20px;
+    width: 20px;
+    height: 25px;
+    cursor: pointer;
+}
+.checkbox1 input[type="checkbox"]:checked {
+    background: url('../assets/CheckboxFullBC.webp');
+	background-size:20px;
+	background-repeat: no-repeat;
+	-webkit-filter: none !important;
+}
+.checkbox1 {
+	margin:0px;
+	align-items: start;
+	margin-top:7px;
+}
+.checkbox2 input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url('../assets/CheckboxEmptyBC.webp');
+	background-size:20px;
+	background-repeat: no-repeat;
+	width: 20px;
+    height: 25px;
+	flex: 0 0 20px;
+    cursor: pointer;
+}
+.checkbox2 input[type="checkbox"]:checked {
+    background: url('../assets/CheckboxFullBC.webp');
+	background-size:20px;
+	background-repeat: no-repeat;
+	-webkit-filter: none !important;
+}
+.checkbox2 {
+	margin:0px;
+	margin-left:-10px;
+	margin-right:-10px;
+	align-items: start;
+	margin-top:7px;
+	transform: rotate(180deg);
+}
+.checkboxmesiento1 input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url('../assets/CheckboxEmptyBC.webp');
+	background-size:15px;
+	background-repeat: no-repeat;
+	flex: 0 0 15px;
+    width: 15px;
+    height: 17px;
+    cursor: pointer;
+}
+.checkboxmesiento1 input[type="checkbox"]:checked {
+    background: url('../assets/CheckboxFullBC.webp');
+	background-size:15px;
+	background-repeat: no-repeat;
+	-webkit-filter: none !important;
+}
+.checkboxmesiento2 {
+	transform: rotate(180deg);
+	margin-left:0px;
+}
+.checkboxmesiento1 {
+	margin-left:0px;
+}
+.checkboxmesiento2 input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url('../assets/CheckboxEmptyBC.webp');
+	background-size:15px;
+	background-repeat: no-repeat;
+	flex: 0 0 15px;
+    width: 15px;
+    height: 17px;
+    cursor: pointer;
+}
+.checkboxmesiento2 input[type="checkbox"]:checked {
+    background: url('../assets/CheckboxFullBC.webp');
+	background-size:15px;
+	background-repeat: no-repeat;
+	-webkit-filter: none !important;
+}
+.checkboxsuerte input[type="checkbox"]{
+	-webkit-appearance: initial;
+    appearance: initial;
+	border-color: black;
+	border-width:1.5px;
+	border-style: solid;
+	border-radius:50%;
+	margin:0px;
+	background-color:white;
+}
+.checkboxsuerte input[type="checkbox"]:checked {
+	-webkit-appearance: initial;
+    appearance: initial;
+	border-color: black;
+	border-width:1.5px;
+	border-style: solid;
+	border-radius:50%;
+	margin:0px;
+	background-color:black;
+}
+.panelcampo {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap:0px;
+	margin:0px;
+}
+.panelcampo2 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap:0px;
+	margin:0px 30px 0px 0px;
+}
+.panelcampo3 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap:0px;
+	margin:0px 0px 0px 0px;
+}
+.barradeco {
+	background: url('../assets/Barradeco.webp');
+	background-repeat: no-repeat;
+	flex-wrap:wrap;
+	height:20px;
+	width:100px;
+	margin-top:10px;
+	margin-left:-15px;
+	align-content:center;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.d6_og_suc {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	color: white;
+	border: 0px solid black;
+	border-radius: 5px;
+	margin: 3px;
+	text-align: center;
+}
+
+.d6_og_rem {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	color: black;
+	border: 0px;
+	border-radius: 5px;
+	margin: 3px;
+	text-align: center;
+}
+.d6_og_suc img{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	color: white;
+	border: 0px solid black;
+	border-radius: 5px;
+	margin: 3px;
+	text-align: center;
+}
+
+.d6_og_rem img{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	color: black;
+	border: 0px;
+	border-radius: 5px;
+	margin: 3px;
+	text-align: center;
+}
+.dice-rolls_household {
+	padding:0px;
+	display:flex;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+.monsuertnum input[type="text"]{
+	font-family:'AmericanTypewriter';
+	font-size:1.7em;
+	background-color:white;
+	border-radius:50%;
+	height:36px;
+	width:36px;
+	border:1px solid black;
+	margin-top:-1px;
+	margin-left:1px;
+}
+.monsuertnum {
+	background: url('../assets/Monedasuerte.webp');
+	background-repeat: no-repeat;
+	align-content:center;
+	background-size: 100% 100%;
+	background-position: center;
+	height:90px;
+	width:90px;
+}
+.panelsuertechecks {
+	gap:0px;
+}
+.monsuerteclick {
+	font-family:'Adventure';
+	font-size:1.1em;
+	transform: rotate(90deg);
+	line-height:5px;
+	margin-left:-90%;
+}
+.panelsuerte1 {
+	margin-top:-50px;
+}
+.plussign {
+	font-size:15px;
+}
+.panelsentcentro{
+	margin:0px;
+}
+.panelpositivo {
+	display: grid;
+	grid-template-columns: 80% 10% 10%;
+	gap:0px;
+	border-bottom:1px solid black;
+	margin-top:4px;
+	margin-bottom:0px;
+}
+.panelmesiento2 {
+	display: grid;
+	grid-template-columns: 40% 20% 40%;
+	gap:0px;
+	margin-top:2px;
+	margin-bottom:0px;
+}
+.panelarm {
+	margin-top:15px;
+}
+.armastablestyle table{
+	background-color:transparent;
+	border:0px;
+	margin:0px;
+	font-family:'AmericanTypewriter';
+	font-size:1.1em;
+}
+.armastablestyle table a{
+	display:flex;
+	background-color:transparent;
+	border:0px;
+	font-family:'Adventure';
+	font-size:1.1em;
+	white-space: pre-wrap;
+	word-break: keep-all
+}
+.armastablestyle table td:first-child{
+	max-width:120px;
+}
+.armastablestyle table a img{
+	display:none;
+}
+.armastablestyle tr:nth-child(even) {
+	background-color:  transparent;
+}
+.tablacriatext table{
+	background-color:transparent;
+	border:0px;
+	margin:0px;
+}
+.tablacriatext tr:nth-child(even) {
+	background-color:  transparent;
+}
+.tablacriatext table td:first-child{
+	width:20px;
+}
+.tablaepisodios table{
+	background-color:transparent;
+	border:0px;
+	margin:0px;
+}
+.tablaepisodios tr:nth-child(even) {
+	background-color:  transparent;
+}
+.tablaespec table{
+	background-color:transparent;
+	border:0px;
+	margin:0px;
+	font-family:'AmericanTypewriter';
+	font-size:1.1em;
+	text-align: center;
+}
+.tablaespec table tr:first-child{
+	display:none;
+}
+.tablaespec tr:nth-child(even) {
+	background-color:  transparent;
+}
+.panelespcic {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap:0px;
+}
+.tablacarg table{
+	background-color:transparent;
+	border:0px;
+	margin:0px;
+	font-family:'AmericanTypewriter';
+	font-size:1.1em;
+	text-align: center;
+	gap:0px;
+	margin:0px;
+	padding:0px;
+}
+.tablacarg table td{
+	gap:0px;
+	margin:0px;
+	padding:0px;
+}
+.tablacarg tr:nth-child(even) {
+	background-color:  transparent;
+}
+.cargnum input{
+	background-color:white;
+	width:10px;
+	margin:0px;
+}
+.tablacarg table tr:first-child{
+	font-size:10px;
+}
+.notastextcss {
+	font-family:'AmericanTypewriter';
+}
+.notastextcss p{
+	text-align:justify;
+}
+.charname input{
+	font-family:'Adventure';
+	font-size:1.5em;
+	text-align: left;
+	background-color: transparent;
+	border-width:0px 0px 1px 0px;
+	border-radius:0px;
+}
+.chat-message .message-content h1{
+font-family:'Adventure';
+	font-size:30px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h2{
+	font-family:'Adventure';
+	font-size:20px;
+	text-align:left;
+	border:0px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.chat-message .message-content h3{
+	font-family:'Adventure';
+	font-size:20px;
+	text-align:center;
+	border:0px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.chat-message .message-content {
+	font-family:'AmericanTypewriter';
+	font-size:20px;
+	text-align:center;
+	border:0px;
+}
+.chat-message {
+	background: url('../assets/BackgroundBC2.jpg')center rgb(201 186 160);
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+ 	background-size: cover;
+}
+.chat-message .message-header .message-sender{
+	font-family: 'Adventure';
+	text-align:center;
+	font-size:30px;
+	text-wrap: wrap;
+	line-height:80%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: #671308;
+	white-space: normal;
+}
+.chat-message .message-header {
+	border-bottom: 2px solid #671308;
+}
+.message .message-header .message-metadata {
+	flex:0 0 50px;
+	margin-left: 0;
+}
+.message-timestamp {
+	font-family:'AmericanTypewriter';
+	text-wrap: wrap;
+	font-size:10px;
+}
+.custom-system-user-inputs {
+	font-family: 'AmericanTypewriter';
+	font-size: 17px;;
+	font-weight: 600;
+}
+.custom-system-user-inputs thead{
+	display: none;
+}
+.custom-system-user-inputs{
+	background:transparent;
+	border:0px;
+}
+.custom-system-user-input-block{
+	justify-content:center;
+	width:50%;
+	margin-left:20%;
+}
+.custom-system-user-inputs td:first-child {
+	font-family: 'Adventure';
+	font-size: 20px;
+	text-align:center;
+	width:70%;
+}
+.custom-system-user-input-button[data-action="sub-10"] {
+	display:none;
+}
+.custom-system-user-input-button[data-action="add-10"] {
+	display:none;
+}
+.custom-system-user-input-block {
+	text-align:center;
+}
+.custom-system-user-inputs tr:nth-child(even) {
+	background-color:  transparent;
+}
+.dialog-content {
+	font-family: 'AmericanTypewriter';
+	font-size: 17px;
+	margin-bottom:5px;
+}
+.dialog-buttons button{
+	font-family: 'AmericanTypewriter';
+	font-size: 17px;
+}
+.containercircle {
+	width:250px;
+   height:250px;
+   border-radius:51%;
+   background: url('../assets/RelojBC.webp');
+	background-repeat: no-repeat;
+ 	background-size: contain;
+	background-position: center;
+   position:relative;
+   margin:0px;
+}
+.check [type="checkbox"]{
+	-webkit-appearance: initial;
+    appearance: initial;
+	border-color: black;
+	border-width:1.5px;
+	border-style: solid;
+	border-radius:50%;
+	margin:0px;
+	background-color:white;
+	box-shadow: 0px 0px 3px 1px #f8f3e6;
+}
+.check input[type="checkbox"]:checked {
+	-webkit-appearance: initial;
+    appearance: initial;
+	border-color: black;
+	border-width:1.5px;
+	border-style: solid;
+	border-radius:50%;
+	margin:0px;
+	background-color:black;
+}
+.check {
+	width: 25px;
+	display:block;
+   position:absolute;
+	top:46.2%;
+	left:41%;
+}
+.deg-0 {
+   transform:translate(72px)
+}
+
+.deg-30 {
+   transform:rotate(30deg) translate(72px) rotate(-30deg);
+}
+
+.deg-60 {
+   transform:rotate(60deg) translate(72px) rotate(-60deg);
+}
+
+.deg-90 {
+   transform:rotate(90deg) translate(72px) rotate(-90deg);
+}
+
+.deg-120 {
+   transform:rotate(120deg) translate(72px) rotate(-120deg);
+}
+
+.deg-150 {
+   transform:rotate(150deg) translate(72px) rotate(-150deg);
+}
+
+.deg-180 {
+   transform:rotate(180deg) translate(72px) rotate(-180deg);
+}
+
+.deg-210 {
+   transform:rotate(210deg) translate(72px) rotate(-210deg);
+}
+.deg-240 {
+   transform:rotate(240deg) translate(72px) rotate(-240deg);
+}
+.deg-270 {
+   transform:rotate(270deg) translate(72px) rotate(-270deg);
+}
+.deg-300 {
+   transform:rotate(300deg) translate(72px) rotate(-300deg);
+}
+.deg-330 {
+   transform:rotate(330deg) translate(72px) rotate(-330deg);
+}
+.paneltemp2 {
+	display: grid;
+	grid-template-columns: 65% 35%;
+	gap:10px;
+	margin:0px;
+}
+.panelreloj2 {
+	display:flex;
+	align-items: center;
+}
+.panelactivos{
+	width:250px;
+   height:250px;
+   background: url('../assets/Activos.webp');
+	background-repeat: no-repeat;
+ 	background-size: contain;
+	background-position: center;
+   position:relative;
+   margin:0px;
+}
+.checkactivos [type="checkbox"]{
+	-webkit-appearance: initial;
+    appearance: initial;
+	border-color: transparent;
+	border-width:1.5px;
+	border-style: solid;
+	margin:0px;
+	background-color:transparent;
+}
+.checkactivos input[type="checkbox"]:checked {
+	-webkit-appearance: initial;
+    appearance: initial;
+	border-color: transparent;
+	border-width:1.5px;
+	border-style: solid;
+	margin:0px;
+	background: url('../assets/ChechActivosMarcado.webp');
+	background-repeat: no-repeat;
+ 	background-size: contain;
+	background-position: center;
+   position:relative;
+}
+.checkactivos {
+	width: 25px;
+	display:block;
+   position:absolute;
+	top:46.2%;
+	left:41%;
+}
+.checkfirst {
+	translate:15px 73px;
+	rotate:22deg;
+}
+.checksecond {
+	translate:-29px 54px;
+	rotate:22deg;
+}
+.checkthird {
+	translate:-69px 35px;
+	rotate:22deg;
+}
+.checkfourth {
+	translate:-105px 17px;
+	rotate:22deg;
+}
+.checkfifth {
+	translate:-7px 30px;
+	rotate:22deg;
+}
+.checksixth {
+	translate:-50px 13px;
+	rotate:22deg;
+}
+.checkseventh {
+	translate:-89px -6px;
+	rotate:22deg;
+}
+.checkeighth {
+	translate:-29px -13px;
+	rotate:22deg;
+}
+.checknineth {
+	translate:-71px -30px;
+	rotate:22deg;
+}
+.checktenth {
+	translate:-51px -56px;
+	rotate:22deg;
+}
+.panelactivos2 {
+	display:flex;
+	align-items: center;
+}
+.panelactnotas {
+	display: grid;
+	grid-template-columns: 35% 65%;
+	gap:0px;
+	margin:15px 0px 0px 0px;
+	border-top:1px solid black;
+}
+.paneltitulotiempo {
+	border-top:1px solid black;
+}
+.panelsuertevehic{
+	gap:0px;
+}
+.panelsuertecheckspnj {
+	gap:0px;
+	width:100px;
+}
+.panelmetodosvehic{
+	display: grid;
+	grid-template-columns: 60% 55%;
+	gap:0px;
+}
+.panelgenvehiculo {
+	display: grid;
+	grid-template-columns: 25% 20% 55%;
+	gap:0px;
+	margin:0px;
+}
+.panelgenvehiculoext {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	gap:0px;
+	margin:0px;
+	border-top: 1px solid black;
+}
+.panelcargas {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	gap:0px;
+	margin:0px;
+}
+.aguabarco {
+	display:flex;
+	gap:0px;
+}
+.aguabarco div:empty {
+	display:none;
+}
+.paneldesccriatext {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	gap:0px;
+	margin:0px;
+}
+.panelturnos {
+	display: grid;
+	grid-template-columns: 30% 30%;
+	gap:0px;
+	margin:0px;
+}
+.chat-portrait-text-size-name-generic {
+	justify-content:center;
+}
