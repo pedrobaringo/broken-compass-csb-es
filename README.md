@@ -6,12 +6,14 @@
 - [Introducción](#introducción)
 - [Instalación](#instalación)
 - [Crear un PJ](#crear-un-pj)
-  - [Pestaña de Características](#pestaña-de-características)
-  - [Pestaña de Notas](#pestaña-de-notas)
 - [Crear un PNJ](#crear-un-pnj)
+- [Crear un Vehículo](#crear-un-vehículo)
+- [Crear un Diario de Viaje](#crear-un-diario-de-viaje)
+- [Crear un Enemigo](#crear-un-enemigo)
+- [Crear una Criatura Extraordinaria](#crear-una-criatura-extraordinaria)
 - [Crear Objetos](#crear-objetos)
 - [Hacer tiradas](#hacer-tiradas)
-- [Iniciativa y Combate](#iniciativa-y-combate)
+- [Agradecimientos](#agradecimientos)
 
 ## Introducción
 Modulo de Foundry VTT con las templates de las fichas para el juego Broken Compass para el sistema Custom System Builder ( https://foundryvtt.com/packages/custom-system-builder ).
@@ -83,54 +85,147 @@ En esta última pestaña podemos tomar notas.
 ## Crear un PNJ
 Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/1286067f-37f3-48fb-8e5b-d860ce6dea84)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/e1db0205-6b65-47b9-9b7e-0d06e34e557e)
 
 Aqui tenemos que seleccionar en Template la que se llama **"PNJ_Template"**.
 
-~~Aqui tenemos que seleccionar en Template una de las dos templates llamadas PNJ_Template segun el siguiente criterio:~~
-* ~~Si vamos a **usar el módulo Dice so Nice** (https://foundryvtt.com/packages/dice-so-nice) para ver las tiradas con dados 3D, debemos seleccionar la template **"PNJ_Template_DSN"**. Sin el módulo no funcionarán las tiradas con esta template.~~
-* ~~Si **no vamos a usar ese módulo**, debemos seleccionar la template **"PNJ_Template"**.~~
+Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/9d3d85c3-ef10-430a-95c9-812920bdc753)
+
+En la parte de arriba se puede marcar la Suerte del Personaje.
+
+En el lateral están los campos que se pueden marcar los puntos haciendo click en los checkbox.
+
+A la derecha podemos añadir una descripción del Personaje.
+
+## Crear un Vehiculo
+Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/f98f6e6b-53f8-4b4b-82a3-bec9a2bdf67e)
+
+Aqui tenemos que seleccionar en Template la que se llama **"Vehículo_Template"**.
 
 Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/a52c5129-8ef4-4dc5-ba7e-81525099e025)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/26d5d788-a33f-499c-8b99-d7ddd4fb4a2a)
 
-En la parte de arriba se puede escribir la descripción, escribir que nivel de Masivo tiene y que Protección lleva o tiene.
+En la parte superior podemos añadir el modelo del vehículo y seleccionar que tipo de vehículo es:
 
-A continuación, en la parte izquierda encontramos las habilidades de Físico, Lucha y Armas de Fuego, asi como las tablas donde arrastrar las Armas desde la pestaña de objetos de Foundry y el selector de Iniciativa.
+### Vehiculo
+En la parte inferior se muestran los 3 puntos de suerte, se puede seleccionar si es de agua, tierra o aire y añadir notas.
 
-A la derecha encontramos los medidores de Vitalidad e Incapacitación. Si modificamos el Multiplicador de Vitalidad estos medidores cambiarán.
+### Montura
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/e4ae4d65-a481-41ce-8072-986c66e82e7f)
+
+Es igual que el Vehículo, pero con un único punto de Suerte.
+
+### Montura (jinete experto)
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/048c411b-0c81-42b0-87ba-db2bffc0c723)
+
+Es igual que el Vehículo.
+
+### Barco
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/a8c477fb-4b84-44fb-b631-061eba239f29)
+
+Es igual que el Vehículo, pero en lugar de Agua, Tierra o Aire se puede seleccionar si es Rápido, Poderoso o Robusto. Viene de la temporada Jolly Roger.
+
+### Vehículo Extraordinario
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/a393a17e-b388-4697-bc74-d782ae119c6c)
+
+La parte superior es igual a la del Vehículo, pero en la parte inferior se puede elegir si es Rápido, Poderoso o Robusto, tener el recuento de cargas y el listado de características extraordinarias. Viene de la temporada Viajes Extraordinarios.
+
+## Crear un Diario de Viaje
+Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/0ed1b672-2058-4762-85e5-4ebee1078bd6)
+
+Aqui tenemos que seleccionar en Template la que se llama **"DiarioViaje_Template"**.
+
+Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/30ff0f2e-0603-43a2-ba3c-e7235cc3e7e0)
+
+En la parte superior podemos poner que tesoro estamos buscando y quien es el Rival así como listar las pistas de ambos pulsando en los iconos +.
+
+Debajo podemos escribir en que temporada estamos y en que época y resumir los acontecimientos de los distintos episodios.
+
+Justo al lado tenemos el Reloj del Apocalipsis donde podemos ir marcando en que hora estmos del reloj.
+
+Al final del todo tenemos el lugar donde marcar el nivel de activos haciendo click en los checkboxes y un apartado donde tomar notas.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/869d1d48-5360-48d1-bcae-e430bf89d94e)
+
+## Crear un Enemigo
+Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/ef71cc26-3d23-4c84-aa47-f73e63cebf8d)
+
+Aqui tenemos que seleccionar en Template la que se llama **"Enemigo_Template"**.
+
+Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/50b25dcd-1588-46e9-a676-09d4d37caeed)
+
+En la parte de arriba podemos seleccionar su fuerza y dificultad (la fuerza representa el número de "enemigos" de esa dificultad que representa y determinará cuantas casillas de Suerte aparecen)
+Debajo tenemos los marcadores de Suerte y el apartado para la Descripción.
+
+## Crear una Criatura Extraordinaria
+Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/14b1fc88-6134-4507-b77f-ae8e85587d75)
+
+Aqui tenemos que seleccionar en Template la que se llama **"CriaturaExtraordinaria_Template"**.
+
+Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/136d9dca-b6e2-4a3b-b255-742eb076147a)
+
+En la parte superior podemos registrar la proximidad de la criatura y con ello veremos la dificultad correspondiente justo debajo. Tambien podemos llevar la cuenta de los turnos que hayan pasado y podemos hacer que sean mas de los 3 estandar.
+
+A continuación tenemos 3 secciones. Contra los Aventureros y Contra un Vehículo funcionan igual, puedes rellenar cada acción correspondiente a un número y al pulsar "Acción de..." se tirará un dado y se mostrará el resultado correspondiente en el Chat.
+
+En la sección de Notas puedes apuntar la descripción o lo que quieras.
 
 ## Crear Objetos
-Si hacemos click en crear objeto y elegimos el tipo "equippableItem" podremos crear objetos de todos los tipos usando las templates.
-Los tipos son:
-* **Arma_Template**: Para armas Cuerpo a Cuerpo.
+En el apartado de Objetos podemos crear un objeto equipable y seleccionar la única template llamada **"Armas_Equip_Template"**. Solo hay un campo que es la descripción del objeto. Éste objeto puede ser arrastrado a una ficha de PJ para que se añada a su listado de Armas y Equipamiento.
 
-Se puede definir el Daño (cuantos dados se tirarán), el Penalizador de Iniciativa (-1 si es arma improvisada o desarmado), el alcance y las notas con las peculiaridades del arma.
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/a1cda6e0-0791-4f7c-b7be-db29c59cfb47)
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/7e588ede-00cd-4af8-8d81-d461bf35c48b)
-
-* **ArmaFuego_template**: Para armas a Distancia.
-
-Se puede definir el Daño (cuantos dados se tirarán), el alcance y las notas con las peculiaridades del arma (como el Trauma).
-
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/ae1825a8-5303-4c6d-86f3-b000bce7e03b)
   
 ## Hacer tiradas
-Para hacer tiradas simplemente se tiene que hacer click en la habilidad con el icono de dados y aparecerá el mensaje de chat con el resultado.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/8ee3c0d6-3d8e-4bef-ac90-e533daba0323)
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/949f7c9a-4b9c-4598-8bd2-284faae7e2ad)
+### Tiradas Sencillas
+Para hacer tiradas simplemente se debe pulsar el nombre de la habilidad a usar y se tirarán tantos dados como puntos tenga la habilidad mas los que tenga el campo al que pertenece y sumará o restará los correspondientes a las condiciones relacionadas con ese campo.
 
-Para aplicar un modificador a la tirada, se deberá pulsar la tecla "Mayus" mientras se hace click. Aparecerá un dialogo donde podemos asignar el modificador positivo o negativo, añadiendo o quitando dados a la tirada.
+El Mensaje de Chat mostrará los dados emparejados y los restantes así como que éxitos de han conseguido.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/9c4f6dfb-d659-405a-a81a-71ab2d90970b)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/47dac303-79ee-4a6e-adfe-c711d43639c0)
 
-## Iniciativa y Combate
-Antes de empezar un combate, todos los PJs y los PNJs deberan elegir "¿Que tipo de arma vas a usar?", lo que determinará la Iniciativa.
+En caso que se pueda volver a tirar algunos dados aparecerá un dialogo preguntando si Acepta el Riesgo o Tiene una Especialidad. lo que hará que se tiren los dados que no se han emparejado.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/95005b3b-db94-47a8-bb8e-7deb55d04317)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/847c4f49-283f-464e-adde-b067f72f2d3e)
 
-Solo cuando lo hayan hecho todos se podrá "tirar" la iniciativa en el menú de "Encuentros de Combate". Se ordenarán los actores de mayor iniciativa a menor.
+En el caso de aceptar el riesgo y que no se consigan nuevos éxitos ni se mejore el éxito, se pedirá que éxito se quiere eliminar.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/42a40ac2-6261-4aca-9301-dbf040b76c46)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/d5d026eb-34ef-4722-a406-3e582a784a1a) ![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/25636354-c36e-4281-939c-501a125d64e9)
+
+Si después de repetir una tirada aún quedan dados que no estén emparejados aparecerá un nuevo dialogo preguntando si queremos hacer un ¡Todo o Nada!.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/98e75a62-69e5-4885-a043-c635e6a21b89)
+
+Si lo hacemos y no conseguimos mas éxitos los habremos perdido todos.
+
+### Tiradas Complejas
+Si se quieren hacer tiradas que usen un campo distinto al estandar de la habilidad o se quieren añadir bonificadores o penalizadores, se debe pulsar el nombre de la habilidad manteniendo pulsada la tecla Mayus o Shift.
+
+Ésto hará que aparezca un dialogo donde podemos elegir el campo a usar (por defecto estará el que corresponde a la habilidad) y podremos sumar dados extra (por defecto se muestran los dados de la habilidad). Así se tirarán los dados del campo seleccionado + los de la Habilidad+Extras. El resto funciona igual que una tirada sencilla.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/a7a425e7-f0d3-4eec-8597-44e1f12966f5)
+
+## Agradecimientos
+Ésta ficha y sobretodo el Macro de tiradas no habría sido posible sin el módulo https://github.com/mordachai/household-csb como referencia.
