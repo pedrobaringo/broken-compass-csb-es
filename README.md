@@ -7,8 +7,7 @@
 - [Instalación](#instalación)
 - [Crear un PJ](#crear-un-pj)
   - [Pestaña de Características](#pestaña-de-características)
-  - [Pestaña de Manifestación](#pestaña-de-manifestación)
-  - [Pestaña de Trasfondo y Notas](#pestaña-de-trasfondo-y-notas)
+  - [Pestaña de Notas](#pestaña-de-notas)
 - [Crear un PNJ](#crear-un-pnj)
 - [Crear Objetos](#crear-objetos)
 - [Hacer tiradas](#hacer-tiradas)
@@ -55,15 +54,31 @@ A la izquierda tenemos todos los campos y habilidades, clickando en los checkbox
 
 ![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/1b23f59f-ce5f-4c6a-91ae-b2ed05f92c0b) ![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/39a8518c-af73-4f30-a909-03323af93c67)
 
-### Pestaña de Manifestación
-En esta pestaña podemos describir la Manifestación de Yog-Sothoth de nuestro personaje, modificar los factores humano y primigenio y marcar los pasos hacia el umbral con sus hitos y deformidades pertinentes. Tambien tenemos la tabla de "Magnitudes de las Manifestaciones".
+#### Suerte y Condiciones
+En esta sección podemos marcar en los checkbox circulares cuando perdamos suerte, escribir cuantas monedas de la Suerte nos quedan y lanzar la moneda de la Suerte cuando sea necesario (se resta automaticamente en caso de salir cruz).
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/9b21308a-b413-41cd-a3c2-a0d7f94c7943)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/2075c48d-809e-4f3d-990f-fb14f3e94230)
 
-### Pestaña de Trasfondo y Notas
-En esta última pestaña podemos rellenar el trasfondo del PJ y tomar notas.
+Justo debajo tenemos el listado de condiciones positivas y negaticas con sitio para 2 éxtra de cada. Si marcamos los checkboxes correspondientes, los dados se añadirán automaticamente a las tiradas que corresponda en los casos de las condiciones estandar.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/271f5368-3dd2-4899-b524-e2a2efb093fe)
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/4ebce789-643b-45ed-a0bf-04cf8e4ef50d)
+
+#### Armas y equipamiento, Especialidades y Cicatrices y Experiencias
+En la primera sección podemos arrastrar objetos que se añadirán a la ficha mostrando su nombre y su descripción.
+
+En Especialidades y Cicatrices y Experiencias podemos añadir con el botón + elementos y editarlos o borrarlos.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/45055865-2438-4d85-882c-f20f949bbbfb)
+
+#### Bolsillos, Bolsa, Mochila y Cargadores
+En estos 4 apartados podemos añadir el resto del equipo que lleva el PJ pulsando los botónes + y rellenando los campos.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/41653346-a985-4565-a784-8872335df20e)
+
+### Pestaña de Notas
+En esta última pestaña podemos tomar notas.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/8aa009ad-5ad6-42d6-803e-9348a5cb48d4)
 
 ## Crear un PNJ
 Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
