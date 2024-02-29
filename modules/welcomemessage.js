@@ -12,7 +12,7 @@ Hooks.once("init", function() {
 	game.settings.register("broken-compass-csb-es", "ambientacion", {
         name: "Ambientación",
         hint: "Selecciona que ambientación quieres usar para el diseño de las fichas.",
-        scope: "world",
+        scope: "client",
         config: true,
 		requiresReload: true,
 		type: String,
@@ -59,6 +59,7 @@ Hooks.once("ready", function() {
 	let userisGM=game.user.isGM;
 	if (userisGM) {
 		if(!game.user.getFlag("broken-compass-csb-es", "welcomeMessage") || forzarmensaje==true) {
+			game.settings.set("custom-system-builder", "customStyle", "modules/broken-compass-csb-es/assets/1999.css");
 			let msg=mensbienv+mensimpfirst+mensrecordtut;
 			ChatMessage.create({
         		speaker: {alias:"Broken Compass"},
