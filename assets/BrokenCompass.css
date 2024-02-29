@@ -8,6 +8,7 @@
 }
 
 .window-app .window-content {
+	background: url('../assets/BackgroundBC2.jpg')center rgb(201 186 160);
 	background: var(--background-imagen);
 	background-repeat: no-repeat;
 	background-blend-mode: screen;
@@ -597,6 +598,7 @@ font-family:'Adventure'; font-family: var(--big-font);
 	border:0px;
 }
 .chat-message {
+	background: url('../assets/BackgroundBC2.jpg')center rgb(201 186 160);
 	background: var(--background-imagen);
 	background-repeat: no-repeat;
 	background-blend-mode: screen;
