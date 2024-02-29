@@ -27,10 +27,17 @@ Para instalar este módulo en Foundry tienes que usar el siguiente Manifest en e
 
 ![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/c5f37ecc-7549-478f-853e-05bab04df9e9)
 
-Cuando hayas creado un mundo con el sistema Custom System Builder debes activar este módulo. En la pestaña de compendios tendrás tres: "Actor_templates", Macros_BC y "Object Templates".
-Es importante que importes primero los Macros, después Objetos y después los Actores, pero sobretodo que se mantenga el ID del documento como se ve en la imagen:
+Cuando hayas creado un mundo con el sistema Custom System Builder debes activar este módulo.
 
-![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/b9bc6c3d-e6b5-4c5f-84cc-f90ea5ac93f0)
+Al activar el módulo aparecerá en el chat un mensaje de bienvenida y si eres el GM podrás importar todos los compendios pulsando el botón correspondiente (si no funciona, recarga la página).
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/c195726d-0de1-4fca-8b19-9004eb4f4bce)
+
+Una vez hecho esto, puedes ir al menú de configuración y seleccionar la ambientación que quieras usar, para que los estilos de las fichas sean los adecuados.
+
+![image](https://github.com/pedrobaringo/broken-compass-csb-es/assets/148097688/d9cc66b7-fdc3-49e4-804a-82988e066dbf)
+
+Para que el Macro funcione para todos los jugadores deberás dar permisos de Espectador a todos los jugadores al Macro.
 
 ## Crear un PJ
 Una vez estan importadas las templates ya podemos crear los Actores.
