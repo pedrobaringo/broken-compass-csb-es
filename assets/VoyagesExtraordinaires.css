@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Abhinaya';
+  src: url('../assets/ABHINAYA-Regular.otf');
+}
+@font-face {
+  font-family: 'AmericanTypewriter';
+  src: url('../assets/American Typewriter Regular.ttf');
+}
+@font-face {
+  font-family: 'Harker';
+  src: url('../assets/harker-square.otf');
+}
+
+
+:root {
+     --common-font: 'AmericanTypewriter';
+	 --big-font: 'Abhinaya';
+	 --semibig-font: 'Harker';
+   --big-font-size: 2em;
+   --semibig-font-size: 1em;
+   --char-font-size: 2.5em;
+   --big-font-weight: 100;
+   --background-imagen: url('../assets/BackgroundBC2.jpg')center rgb(168 201 160);
+}

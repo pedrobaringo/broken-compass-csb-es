@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Adventure';
+  src: url('../assets/Adventure.otf');
+}
+@font-face {
+  font-family: 'AmericanTypewriter';
+  src: url('../assets/American Typewriter Regular.ttf');
+}
+@font-face {
+  font-family: 'Designator';
+  src: url('../assets/designator-rounded-wide-italic.ttf');
+}
+
+:root {
+     --common-font: 'AmericanTypewriter';
+	 --big-font: 'Adventure';
+	 --semibig-font: 'Designator';
+   --big-font-size: 1.5em;
+   --semibig-font-size: 1.1em;
+   --char-font-size: 2em;
+   --big-font-weight: bold;
+   --background-imagen: url('../assets/BackgroundBC2.jpg')center rgb(201 186 160);
+}

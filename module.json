@@ -1,7 +1,7 @@
 {
   "id": "broken-compass-csb-es",
   "title": "Broken Compass CSB (ES)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -65,12 +65,13 @@
     }
   ],
   "esmodules": [
-		"./modules/brokencompassdice.js"
+		"./modules/brokencompassdice.js",
+   "./modules/welcomemessage.js"
 	],
 	"styles": [
     "./assets/BrokenCompass.css"
   ],
   "url": "https://github.com/pedrobaringo/broken-compass-csb-es",
   "manifest": "https://github.com/pedrobaringo/broken-compass-csb-es/releases/latest/download/module.json",
-  "download": "https://github.com/pedrobaringo/broken-compass-csb-es/releases/download/1.0.0/broken-compass-csb-es.zip"
+  "download": "https://github.com/pedrobaringo/broken-compass-csb-es/releases/download/1.0.1/broken-compass-csb-es.zip"
 }

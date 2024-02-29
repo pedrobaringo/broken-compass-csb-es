@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Treasuremap';
+  src: url('../assets/treasuremap-Medium.otf');
+}
+@font-face {
+  font-family: 'AmericanTypewriter';
+  src: url('../assets/American Typewriter Regular.ttf');
+}
+@font-face {
+  font-family: 'ACaslonPro';
+  src: url('../assets/Adobe Caslon Pro Regular.ttf');
+}
+
+:root {
+     --common-font: 'AmericanTypewriter';
+	 --big-font: 'Treasuremap';
+	 --semibig-font: 'ACaslonPro';
+   --big-font-size: 1.2em;
+   --semibig-font-size: 0.9em;
+   --char-font-size: 1.3em;
+   --big-font-weight: bold;
+   --background-imagen: url('../assets/BackgroundBC2.jpg')center rgb(129 129 129);
+}

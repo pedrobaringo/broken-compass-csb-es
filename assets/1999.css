@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Veneer';
+  src: url('../assets/Veneer-Three.woff2');
+}
+@font-face {
+  font-family: 'AmericanTypewriter';
+  src: url('../assets/American Typewriter Regular.ttf');
+}
+
+:root {
+     --common-font: 'AmericanTypewriter';
+	 --big-font: 'Veneer';
+	 --semibig-font: 'Veneer';
+   --big-font-size: 1.5em;
+   --semibig-font-size: 1.2em;
+   --char-font-size: 2em;
+   --big-font-weight: bold;
+   --background-imagen: url('../assets/BackgroundBC2.jpg')center rgb(195 195 195);
+}

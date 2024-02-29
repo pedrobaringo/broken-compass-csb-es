@@ -8,68 +8,71 @@
 }
 
 .window-app .window-content {
-	background: url('../assets/BackgroundBC2.jpg')center rgb(201 186 160);
+	background: var(--background-imagen);
 	background-repeat: no-repeat;
 	background-blend-mode: screen;
  	background-size: cover;
 }
 
 .labelcat1 {
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:1.1em;
 }
 .labelcat12 {
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:1.1em;
 	width:5px;
 }
 .labelcat2 {
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--semibig-font);
 	color:#494747;
 }
 .labelcat3 {
-	font-family:'Adventure';
-	font-size:1.5em;
+	font-family:'Adventure'; font-family: var(--big-font);
+	font-size:var(--big-font-size);
 	padding-top:7px;
 }
 .labelcat4 {
-	font-family:'Adventure';
-	font-size:1.3em;
+	font-family:'Adventure'; font-family: var(--semibig-font);
+	text-transform: uppercase;
+	font-size:var(--semibig-font-size);
+	font-weight: var(--big-font-weight);
 	padding-top:7px;
 }
 .labelcat5 {
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:1.4em;
 }
 .labelcat6 {
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:1.5em;
 	padding-top:0px;
 }
 .labsiento1 {
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--semibig-font);
 	color:#494747;
-	font-weight:bold;
+	font-weight:var(--big-font-weight);
 	font-size:0.8em;
 	margin:0px;
 }
 .labobjdesc{
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-size:1em;
 }
 .labelcatsient1 {
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--semibig-font);
 	font-size:1em;
+	font-weight: var(--big-font-weight);
 }
 .textinputcat1criatext input{
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	text-align: left;
 	background-color: transparent;
 	border-width:0px 0px 1px 0px;
 	border-radius:0px;
 }
 .textinputcat1 input{
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-weight: bold;
 	text-align: left;
 	background-color: transparent;
@@ -77,14 +80,14 @@
 	border-radius:0px;
 }
 .textinputcat1 select{
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-weight: bold;
 	text-align: center;
 	background-color: transparent;
 	border-width:0px 0px 1px 0px;
 }
 .textinputcat2 input{
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-weight: bold;
 	text-align: left;
 	background-color: transparent;
@@ -92,7 +95,7 @@
 	border-radius:0px;
 }
 .textinputcat3 input{
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-weight: bold;
 	text-align: center;
 	background-color: transparent;
@@ -100,7 +103,7 @@
 	border-radius:0px;
 }
 .textinputcatsent input{
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-weight: bold;
 	text-align: left;
 	background-color: transparent;
@@ -108,7 +111,7 @@
 	border-radius:0px;
 }
 .textinputcat2 input{
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-weight: bold;
 	background-color: transparent;
 	border-width:0px 0px 1px 0px;
@@ -174,12 +177,12 @@
 	gap:0px;
 }
 .tabbedcontent nav{
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size: 20px;
 	color: #494747;
 }
 .tabbedcontent .item.active{
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size: 20px;
 	text-decoration:underline;
 	color: black;
@@ -405,7 +408,7 @@
 	flex-wrap:wrap;
 }
 .monsuertnum input[type="text"]{
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-size:1.7em;
 	background-color:white;
 	border-radius:50%;
@@ -428,7 +431,7 @@
 	gap:0px;
 }
 .monsuerteclick {
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:1.1em;
 	transform: rotate(90deg);
 	line-height:5px;
@@ -465,14 +468,14 @@
 	background-color:transparent;
 	border:0px;
 	margin:0px;
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-size:1.1em;
 }
 .armastablestyle table a{
 	display:flex;
 	background-color:transparent;
 	border:0px;
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:1.1em;
 	white-space: pre-wrap;
 	word-break: keep-all
@@ -509,7 +512,7 @@
 	background-color:transparent;
 	border:0px;
 	margin:0px;
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-size:1.1em;
 	text-align: center;
 }
@@ -528,7 +531,7 @@
 	background-color:transparent;
 	border:0px;
 	margin:0px;
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-size:1.1em;
 	text-align: center;
 	gap:0px;
@@ -552,13 +555,13 @@
 	font-size:10px;
 }
 .notastextcss {
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 }
 .notastextcss p{
 	text-align:justify;
 }
 .charname input{
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:1.5em;
 	text-align: left;
 	background-color: transparent;
@@ -566,13 +569,13 @@
 	border-radius:0px;
 }
 .chat-message .message-content h1{
-font-family:'Adventure';
+font-family:'Adventure'; font-family: var(--big-font);
 	font-size:30px;
 	text-align:center;
 	border:0px;
 }
 .chat-message .message-content h2{
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:20px;
 	text-align:left;
 	border:0px;
@@ -580,7 +583,7 @@ font-family:'Adventure';
 	margin-right:10px;
 }
 .chat-message .message-content h3{
-	font-family:'Adventure';
+	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:20px;
 	text-align:center;
 	border:0px;
@@ -588,21 +591,22 @@ font-family:'Adventure';
 	margin-right:10px;
 }
 .chat-message .message-content {
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-size:20px;
 	text-align:center;
 	border:0px;
 }
 .chat-message {
-	background: url('../assets/BackgroundBC2.jpg')center rgb(201 186 160);
+	background: var(--background-imagen);
 	background-repeat: no-repeat;
 	background-blend-mode: screen;
  	background-size: cover;
 }
 .chat-message .message-header .message-sender{
 	font-family: 'Adventure';
+	font-family: var(--big-font);
 	text-align:center;
-	font-size:30px;
+	font-size:var(--char-font-size);
 	text-wrap: wrap;
 	line-height:80%;
 	margin-top:5px;
@@ -618,7 +622,7 @@ font-family:'Adventure';
 	margin-left: 0;
 }
 .message-timestamp {
-	font-family:'AmericanTypewriter';
+	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	text-wrap: wrap;
 	font-size:10px;
 }
