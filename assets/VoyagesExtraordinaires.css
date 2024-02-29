@@ -22,3 +22,17 @@
    --big-font-weight: 100;
    --background-imagen: url('../assets/BackgroundBC2.jpg')center rgb(168 201 160);
 }
+
+.chat-message {
+	background: var(--background-imagen);
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+ 	background-size: cover;
+}
+
+.window-app .window-content {
+	background: var(--background-imagen);
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+ 	background-size: cover;
+}

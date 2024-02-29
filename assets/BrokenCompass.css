@@ -7,13 +7,6 @@
   src: url('../assets/American Typewriter Regular.ttf');
 }
 
-.window-app .window-content {
-	background: var(--background-imagen), url('../assets/BackgroundBC2.jpg')center rgb(201 186 160);
-	background-repeat: no-repeat;
-	background-blend-mode: screen;
- 	background-size: cover;
-}
-
 .labelcat1 {
 	font-family:'Adventure'; font-family: var(--big-font);
 	font-size:1.1em;
@@ -595,12 +588,6 @@ font-family:'Adventure'; font-family: var(--big-font);
 	font-size:20px;
 	text-align:center;
 	border:0px;
-}
-.chat-message {
-	background: var(--background-imagen), url('../assets/BackgroundBC2.jpg')center rgb(201 186 160);
-	background-repeat: no-repeat;
-	background-blend-mode: screen;
- 	background-size: cover;
 }
 .chat-message .message-header .message-sender{
 	font-family: 'Adventure';
