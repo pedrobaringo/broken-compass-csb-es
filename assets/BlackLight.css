@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'ArialBlack';
+  src: url('../assets/ARIBLK.TTF');
+}
 :root {
      --common-font: 'AmericanTypewriter';
 	 --big-font: 'ArialBlack';
