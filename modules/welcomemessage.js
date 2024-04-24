@@ -20,7 +20,8 @@ Hooks.once("init", function() {
 			"1999": "1999",
 			"1936": "Edad Dorada",
 			"piratas": "Jolly Roger",
-			"verne": "Voyages Extraordinaires"
+			"verne": "Voyages Extraordinaires",
+			"blacklight": "Black Light"
 		},
 		default: "1999",
 		onChange: value => {
@@ -36,6 +37,9 @@ Hooks.once("init", function() {
 			} else if (value=="verne") {
 				console.log(value);
 				game.settings.set("custom-system-builder", "customStyle", "modules/broken-compass-csb-es/assets/VoyagesExtraordinaires.css");
+			} else if (value=="blacklight") {
+				console.log(value);
+				game.settings.set("custom-system-builder", "customStyle", "modules/broken-compass-csb-es/assets/BlackLight.css");
 			}
 		}
 	})

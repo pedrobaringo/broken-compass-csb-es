@@ -1,0 +1,27 @@
+:root {
+     --common-font: 'AmericanTypewriter';
+	 --big-font: 'ArialBlack';
+	 --semibig-font: 'ArialBlack';
+   --big-font-size: 1em;
+   --semibig-font-size: 1em;
+   --char-font-size: 2em;
+   --big-font-weight: bold;
+   --background-imagen: url('../assets/BackgroundBC2.jpg')center rgb(192 151 194);
+}
+
+.chat-message {
+	background: var(--background-imagen);
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+ 	background-size: cover;
+}
+
+.window-app .window-content {
+	background: var(--background-imagen);
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+ 	background-size: cover;
+}
+.labelcat3 {
+	text-transform:uppercase;
+}
