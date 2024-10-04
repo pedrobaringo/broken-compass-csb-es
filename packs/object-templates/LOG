@@ -1,3 +1,8 @@
-2024/06/21-11:31:52.970 1618 Recovering log #69
-2024/06/21-11:31:52.975 1618 Delete type=0 #69
-2024/06/21-11:31:52.976 1618 Delete type=3 #67
+2024/10/04-19:33:49.402 4dac Recovering log #79
+2024/10/04-19:33:49.407 4dac Delete type=0 #79
+2024/10/04-19:33:49.408 4dac Delete type=3 #77
+2024/10/04-19:47:06.655 5b14 Level-0 table #85: started
+2024/10/04-19:47:06.656 5b14 Level-0 table #85: 0 bytes OK
+2024/10/04-19:47:06.657 5b14 Delete type=0 #83
+2024/10/04-19:47:06.658 5b14 Manual compaction at level-0 from '!items!CI3fUZjvfVXmVH9A' @ 72057594037927935 : 1 .. '!items!CI3fUZjvfVXmVH9A' @ 0 : 0; will stop at (end)
+2024/10/04-19:47:06.666 5b14 Manual compaction at level-1 from '!items!CI3fUZjvfVXmVH9A' @ 72057594037927935 : 1 .. '!items!CI3fUZjvfVXmVH9A' @ 0 : 0; will stop at (end)
