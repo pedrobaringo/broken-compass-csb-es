@@ -6,6 +6,93 @@
   font-family: 'AmericanTypewriter';
   src: url('../assets/American Typewriter Regular.ttf');
 }
+.character .window-content, .equippableItem .window-content, .custom-dialog .window-content {
+	background: var(--background-imagen);
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	background-blend-mode: screen;
+	padding:1rem;
+	color: black;
+}
+.character .grid {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.character input[type=text], .equippableItem input[type=text], .custom-dialog input[type=text]{
+	box-shadow:0px 0px;
+	color: black;
+    background:transparent;
+}
+.character input[type=number], .equippableItem input[type=number], .custom-dialog input[type=number]{
+	box-shadow:0px 0px;
+	color: black;
+    background:transparent;
+}
+.character select, .equippableItem select, .custom-dialog select{
+	background:transparent;
+	color: black;
+    border:1px solid black;
+}
+.custom-system-user-inputs td button {
+    color: black;
+}
+.character summary:before, .equippableItem summary:before, .custom-dialog summary:before {
+	border-color: transparent transparent transparent #000000;
+}
+.character input[type="checkbox"]::before, .equippableItem input[type="checkbox"]::before, .custom-dialog input[type="checkbox"]::before {
+    content:"";
+    color: black;
+    font-weight:normal;
+}
+.character  input[type="checkbox"]:checked::after, .equippableItem  input[type="checkbox"]:checked::after, .custom-dialog  input[type="checkbox"]:checked::after {
+    content: "";
+    color: transparent;
+}
+.character input[type="checkbox"]:checked::before, .equippableItem input[type="checkbox"]:checked::before,  .custom-dialog input[type="checkbox"]:checked::before {
+    content: "";
+    color: black;
+}
+.custom-dialog .form-group > label {
+	color: black;
+}
+.character table, .equippableItem table, .custom-dialog table {
+	background:transparent;
+}
+.custom-system-number-field-control {
+	background:transparent;
+	color:black;
+	border:1px solid black;
+}
+.character input[type="radio"]::before, .equippableItem input[type="radio"]::before, .custom-dialog input[type="radio"]::before {
+    content:"\f10c";
+    color: black;
+    font-weight:normal;
+}
+.character input[type="radio"]:checked::before, .character  input[type="radio"]:checked::after, .equippableItem input[type="radio"]:checked::before,  .equippableItem  input[type="radio"]:checked::after, .custom-dialog input[type="radio"]:checked::before, .custom-dialog  input[type="radio"]:checked::after {
+    content: "\f192";
+    color: black;
+}
+.character .content-link, .equippableItem .content-link, .custom-dialog .content-link {
+  background:transparent;
+  color: black;
+  border: 0px;
+}
+.custom-system-user-input-button {
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px groove black;
+    color: black
+}
+.custom-dialog .standard-form .form-footer > button {
+  color:black;
+  background:transparent;
+  border: 2px groove black;
+}
+.chat-message {
+	background: var(--background-imagen);
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+ 	background-size: cover;
+}
 
 .labelcat1 {
 	font-family:'Adventure'; font-family: var(--big-font);
@@ -61,6 +148,7 @@
 	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	text-align: left;
 	background-color: transparent;
+	border: solid black;
 	border-width:0px 0px 1px 0px;
 	border-radius:0px;
 }
@@ -69,6 +157,7 @@
 	font-weight: bold;
 	text-align: left;
 	background-color: transparent;
+	border: solid black;
 	border-width:0px 0px 1px 0px;
 	border-radius:0px;
 }
@@ -77,6 +166,7 @@
 	font-weight: bold;
 	text-align: center;
 	background-color: transparent;
+	border: solid black;
 	border-width:0px 0px 1px 0px;
 }
 .textinputcat2 input{
@@ -84,6 +174,7 @@
 	font-weight: bold;
 	text-align: left;
 	background-color: transparent;
+	border: solid black;
 	border-width:0px 0px 1px 0px;
 	border-radius:0px;
 }
@@ -92,6 +183,7 @@
 	font-weight: bold;
 	text-align: center;
 	background-color: transparent;
+	border: solid black;
 	border-width:0px 0px 1px 0px;
 	border-radius:0px;
 }
@@ -100,6 +192,7 @@
 	font-weight: bold;
 	text-align: left;
 	background-color: transparent;
+	border: solid black;
 	border-width:0px 0px 0px 0px;
 	border-radius:0px;
 }
@@ -107,65 +200,66 @@
 	font-family:'AmericanTypewriter'; font-family: var(--common-font);
 	font-weight: bold;
 	background-color: transparent;
+	border: solid black;
 	border-width:0px 0px 1px 0px;
 	border-radius:0px;
 }
-.panelenem {
+.panelenem  > :first-child{
 	display: grid;
 	grid-template-columns: 30% 70%;
 	gap:10px;
 	margin:0px;
 }
-.panelpnj {
+.panelpnj  > :first-child{
 	display: grid;
 	grid-template-columns: 40% 60%;
 	gap:0px;
 	margin:0px;
 }
-.panfuerzaenem {
+.panfuerzaenem  > :first-child{
 	display: grid;
 	grid-template-columns: 20% 30% 50%;
 	gap:0px;
 	margin:0px;
 }
-.paneldescriptionmodeloveh {
+.paneldescriptionmodeloveh  > :first-child{
 	display: grid;
 	grid-template-columns: 20% 80%;
 	gap:0px;
 	margin:0px;
 }
-.paneldescription {
+.paneldescription  > :first-child{
 	display: grid;
 	grid-template-columns: 35% 65%;
 	gap:0px;
 	margin:0px;
 }
-.paneldescription2 {
+.paneldescription2  > :first-child{
 	display: grid;
 	grid-template-columns: 25% 75%;
 	gap:0px;
 	margin:0px;
 }
-.paneldescription3 {
+.paneldescription3  > :first-child{
 	display: grid;
 	grid-template-columns: 28% 72%;
 	gap:10px;
 	margin:0px;
 }
-.paneltempo {
+.paneltempo  > :first-child{
 	display: grid;
 	grid-template-columns: 25% 75%;
 	gap:0px;
 	margin:0px;
 	margin-right:10px;
 }
-.panelepoca {
+.panelepoca  > :first-child{
 	display: grid;
 	grid-template-columns: 15% 85%;
 	gap:0px;
 	margin:0px;
 }
-.lugarespanel {
+.lugarespanel  > :first-child{
 	display: grid;
 	gap:0px;
 }
@@ -183,14 +277,14 @@
 .custom-system-actor nav.sheet-tabs {
 	border-top:0px;
 }
-.panelgrande2col {
+.panelgrande2col  > :first-child{
 	display: grid;
 	grid-template-columns: 32% 68%;
 }
 .panelgenhab {
 	margin-bottom:10px;
 }
-.checkboxpanelcriatext {
+.checkboxpanelcriatext  > :first-child{
 	display: grid;
 	grid-template-columns: auto auto auto auto auto;
 	gap:7px;
@@ -198,7 +292,7 @@
 	margin-top:0px;
 	margin-bottom:0px;
 }
-.checkboxpanel {
+.checkboxpanel  > :first-child{
 	display: grid;
 	grid-template-columns: auto auto auto;
 	gap:7px;
@@ -307,6 +401,8 @@
 	border-radius:50%;
 	margin:0px;
 	background-color:white;
+	min-width: 20px;
+    min-height: 20px;
 }
 .checkboxsuerte input[type="checkbox"]:checked {
 	-webkit-appearance: initial;
@@ -318,19 +414,19 @@
 	margin:0px;
 	background-color:black;
 }
-.panelcampo {
+.panelcampo  > :first-child{
 	display: grid;
 	grid-template-columns: auto auto auto;
 	gap:0px;
 	margin:0px;
 }
-.panelcampo2 {
+.panelcampo2  > :first-child{
 	display: grid;
 	grid-template-columns: auto auto auto;
 	gap:0px;
 	margin:0px 30px 0px 0px;
 }
-.panelcampo3 {
+.panelcampo3  > :first-child{
 	display: grid;
 	grid-template-columns: auto auto auto;
 	gap:0px;
@@ -420,8 +516,9 @@
 	height:90px;
 	width:90px;
 }
-.panelsuertechecks {
+.panelsuertechecks  > :first-child{
 	gap:0px;
+	margin-top:40px;
 }
 .monsuerteclick {
 	font-family:'Adventure'; font-family: var(--big-font);
@@ -439,7 +536,7 @@
 .panelsentcentro{
 	margin:0px;
 }
-.panelpositivo {
+.panelpositivo  > :first-child{
 	display: grid;
 	grid-template-columns: 80% 10% 10%;
 	gap:0px;
@@ -447,14 +544,14 @@
 	margin-top:4px;
 	margin-bottom:0px;
 }
-.panelmesiento2 {
+.panelmesiento2  > :first-child{
 	display: grid;
 	grid-template-columns: 40% 20% 40%;
 	gap:0px;
 	margin-top:2px;
 	margin-bottom:0px;
 }
-.panelarm {
+.panelarm  > :first-child{
 	margin-top:15px;
 }
 .armastablestyle table{
@@ -515,7 +612,7 @@
 .tablaespec tr:nth-child(even) {
 	background-color:  transparent;
 }
-.panelespcic {
+.panelespcic  > :first-child{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	gap:0px;
@@ -536,13 +633,20 @@
 	margin:0px;
 	padding:0px;
 }
+.tablacarg table td div{
+	gap:0px;
+	margin:0px;
+	padding:0px;
+}
 .tablacarg tr:nth-child(even) {
 	background-color:  transparent;
 }
 .cargnum input{
 	background-color:white;
-	width:10px;
+	border: 1px solid black;
+	width:17px;
 	margin:0px;
+	padding:0px;
 }
 .tablacarg table tr:first-child{
 	font-size:10px;
@@ -555,9 +659,10 @@
 }
 .charname input{
 	font-family:'Adventure'; font-family: var(--big-font);
-	font-size:1.5em;
+	font-size:1em;
 	text-align: left;
 	background-color: transparent;
+	border: solid black;
 	border-width:0px 0px 1px 0px;
 	border-radius:0px;
 }
@@ -678,6 +783,8 @@ font-family:'Adventure'; font-family: var(--big-font);
 	margin:0px;
 	background-color:white;
 	box-shadow: 0px 0px 3px 1px #f8f3e6;
+	min-height: 20px;
+    min-width: 20px;
 }
 .check input[type="checkbox"]:checked {
 	-webkit-appearance: initial;
@@ -739,7 +846,7 @@ font-family:'Adventure'; font-family: var(--big-font);
 .deg-330 {
    transform:rotate(330deg) translate(72px) rotate(-330deg);
 }
-.paneltemp2 {
+.paneltemp2  > :first-child{
 	display: grid;
 	grid-template-columns: 65% 35%;
 	gap:10px;
@@ -767,6 +874,8 @@ font-family:'Adventure'; font-family: var(--big-font);
 	border-style: solid;
 	margin:0px;
 	background-color:transparent;
+	min-width: 20px;
+    min-height: 20px;
 }
 .checkactivos input[type="checkbox"]:checked {
 	-webkit-appearance: initial;
@@ -832,7 +941,7 @@ font-family:'Adventure'; font-family: var(--big-font);
 	display:flex;
 	align-items: center;
 }
-.panelactnotas {
+.panelactnotas  > :first-child{
 	display: grid;
 	grid-template-columns: 35% 65%;
 	gap:0px;
@@ -845,29 +954,29 @@ font-family:'Adventure'; font-family: var(--big-font);
 .panelsuertevehic{
 	gap:0px;
 }
-.panelsuertecheckspnj {
+.panelsuertecheckspnj  > :first-child{
 	gap:0px;
 	width:100px;
 }
-.panelmetodosvehic{
+.panelmetodosvehic  > :first-child{
 	display: grid;
 	grid-template-columns: 60% 55%;
 	gap:0px;
 }
-.panelgenvehiculo {
+.panelgenvehiculo  > :first-child{
 	display: grid;
 	grid-template-columns: 25% 20% 55%;
 	gap:0px;
 	margin:0px;
 }
-.panelgenvehiculoext {
+.panelgenvehiculoext  > :first-child{
 	display: grid;
 	grid-template-columns: 20% 80%;
 	gap:0px;
 	margin:0px;
 	border-top: 1px solid black;
 }
-.panelcargas {
+.panelcargas  > :first-child{
 	display: grid;
 	grid-template-columns: 30% 70%;
 	gap:0px;
@@ -880,13 +989,13 @@ font-family:'Adventure'; font-family: var(--big-font);
 .aguabarco div:empty {
 	display:none;
 }
-.paneldesccriatext {
+.paneldesccriatext  > :first-child{
 	display: grid;
 	grid-template-columns: 30% 70%;
 	gap:0px;
 	margin:0px;
 }
-.panelturnos {
+.panelturnos  > :first-child{
 	display: grid;
 	grid-template-columns: 30% 30%;
 	gap:0px;
