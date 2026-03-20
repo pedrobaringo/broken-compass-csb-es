@@ -764,7 +764,7 @@ font-family:'Adventure'; font-family: var(--big-font);
 }
 .containercircle {
 	width:250px;
-   height:250px;
+   min-height:250px;
    border-radius:51%;
    background: url('../assets/RelojBC.webp');
 	background-repeat: no-repeat;
